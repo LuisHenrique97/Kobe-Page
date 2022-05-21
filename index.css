@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+  }
+
+  #content {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  #content p{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .principal {
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .logo {
+    margin-left: 20px;
+  }
+  
+  .car {
+    margin-right: 20px;
+  }
+  
+  .menu {
+    margin-right: 120px;
+  }
+  
+  .menu a {
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #222;
+  }
+
+  .menu a:hover {
+    color: orange;
+  }
+  
+  .itens {
+    display: flex;
+    align-items: center;
+  }
